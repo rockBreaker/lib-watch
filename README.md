@@ -46,7 +46,12 @@ This is a web app framework I played around with a while ago.
 1. Can I use re-frame as the front end part of luminus?
 
 #### Quick look
-
+```
+$ lein new luminus my-app
+$ cd my-app
+$ lein run
+Started server on port 3000
+```
 #### Quick links
 * [Your First Application](http://www.luminusweb.net/docs/guestbook.md)
 * [REPL Driven Development](http://www.luminusweb.net/docs/repl.md)
