@@ -32,6 +32,7 @@ Route matcher        | URI              | Parameters
   * [Query parameters](https://github.com/gf3/secretary/blob/master/README.md#query-parameters)
   * [Named routes](https://github.com/gf3/secretary/blob/master/README.md#named-routes)
 
+***
 
 ## Clojure
 #### [Luminus](http://www.luminusweb.net/ "clj web framework")
@@ -80,3 +81,4 @@ Started server on port 3000
 * [Clojure Resources](http://www.luminusweb.net/docs/learning_clojure.md)
 
 
+***
