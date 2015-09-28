@@ -34,6 +34,58 @@ Route matcher        | URI              | Parameters
 
 ***
 
+#### [re-frame](https://github.com/Day8/re-frame "reagent framework") 
+This is a reagent framework built ontop of reactjs. 
+It's been pretty interesting so far but the main readme is very long.
+
+### Quick Look
+
+1. Install [Leiningen](http://leiningen.org/)  (plus Java).
+
+2. Get the re-frame repo
+   ```
+   git clone https://github.com/Day8/re-frame.git
+   ```
+
+3. cd to the right example directory
+   ```
+   cd re-frame/examples/todomvc
+   ```
+
+4. Clean build
+   ```
+   lein do clean, figwheel
+   ```
+
+5. Run
+   You'll have to wait for step 4 to do its compile, but then:
+   ```
+   open http://localhost:3450
+   ```
+
+
+#### Compile an optimized version
+
+1. Compile
+   ```
+   lein do clean, with-profile prod compile
+   ```
+
+2. Open the following in your browser
+   ```
+   resources/public/index.html
+   ```
+    
+   
+   
+### Quick links
+
+* [What is re-frame?](https://github.com/Day8/re-frame#re-frame)
+* [Using re-frame](https://github.com/Day8/re-frame#using-re-frame)
+* [Crazy long rest of readme](https://github.com/Day8/re-frame#tutorial-table-of-contents)
+
+***
+
 ## Clojure
 #### [Luminus](http://www.luminusweb.net/ "clj web framework")
 This is a web app framework I played around with a while ago. 
