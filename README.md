@@ -5,11 +5,11 @@ A place where i can store interesting libs by category.
 
 
 ## ClojureScript
-#### [Secretary](https://github.com/gf3/secretary "cljs routes lib") 
+### [Secretary](https://github.com/gf3/secretary "cljs routes lib") 
 When I was messing around with reagent I found this lib inside the re-frame framework. 
 It looks to be a pretty strong cljs routing lib, with some neat features around Route matchers and actions.
 
-###Quick Look
+####Quick Look
 
 Route matcher        | URI              | Parameters
 ---------------------|------------------|--------------------------
@@ -24,7 +24,7 @@ Route matcher        | URI              | Parameters
 
 
  
-###Quick links
+####Quick links
 
   * [Basic routing and dispatch](https://github.com/gf3/secretary/blob/master/README.md#basic-routing-and-dispatch)
   * [Route matchers](https://github.com/gf3/secretary/blob/master/README.md#route-matchers)
@@ -34,11 +34,11 @@ Route matcher        | URI              | Parameters
 
 ***
 
-#### [re-frame](https://github.com/Day8/re-frame "reagent framework") 
+### [re-frame](https://github.com/Day8/re-frame "reagent framework") 
 This is a reagent framework built ontop of reactjs. 
 It's been pretty interesting so far but the main readme is very long.
 
-### Quick Look
+#### Quick Look
 
 1. Install [Leiningen](http://leiningen.org/)  (plus Java).
 
@@ -64,7 +64,7 @@ It's been pretty interesting so far but the main readme is very long.
    ```
 
 
-#### Compile an optimized version
+##### Compile an optimized version
 
 1. Compile
    ```
@@ -78,7 +78,7 @@ It's been pretty interesting so far but the main readme is very long.
     
    
    
-### Quick links
+#### Quick links
 
 * [What is re-frame?](https://github.com/Day8/re-frame#re-frame)
 * [Using re-frame](https://github.com/Day8/re-frame#using-re-frame)
@@ -87,7 +87,7 @@ It's been pretty interesting so far but the main readme is very long.
 ***
 
 ## Clojure
-#### [Luminus](http://www.luminusweb.net/ "clj web framework")
+### [Luminus](http://www.luminusweb.net/ "clj web framework")
 This is a web app framework I played around with a while ago. 
 
 | Positives  | Negatives | 
@@ -95,17 +95,17 @@ This is a web app framework I played around with a while ago.
 | Very easy to use    | tbc  |         
        
 
-### Questions
+#### Questions
 1. Can I use re-frame as the front end part of luminus?
 
-#### Quick look
+##### Quick look
 ```
 $ lein new luminus my-app
 $ cd my-app
 $ lein run
 Started server on port 3000
 ```
-#### Quick links
+##### Quick links
 * [Your First Application](http://www.luminusweb.net/docs/guestbook.md)
 * [REPL Driven Development](http://www.luminusweb.net/docs/repl.md)
 * [Application Profiles](http://www.luminusweb.net/docs/profiles.md)
