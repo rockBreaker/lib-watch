@@ -134,3 +134,44 @@ Started server on port 3000
 
 
 ***
+
+### [Hiccup](https://github.com/weavejester/hiccup)
+I found out about this lib when I was using re-frame / Luminus.
+Pretty sure its industry standard for representing HTML in Clojure.
+
+
+##### Quick look
+```
+Installation
+Add the following dependency to your project.clj file:
+
+[hiccup "1.0.5"] ;;Check for more recent depenency versions
+
+;Next
+
+user=> (use 'hiccup.core)
+nil
+
+user=> (html [:span {:class "foo"} "bar"])
+"<span class=\"foo\">bar</span>"
+```
+
+##### Quick links
+
+* [Syntax](https://github.com/weavejester/hiccup#syntax)
+* [Wiki](https://github.com/weavejester/hiccup/wiki)
+* [API](http://weavejester.github.io/hiccup/)
+
+***
+
+
+
+#### Hit List
+Libs I want to look at next.
+
+
+
+* [Clojurescript - React Native](http://cljsrn.org/)
+* [ambly](https://github.com/omcljs/ambly)
+* [descjop](https://github.com/karad/lein_template_descjop)
+* [cljs-ajax](https://github.com/JulianBirch/cljs-ajax)
