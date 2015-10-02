@@ -1,6 +1,7 @@
 # wtf is reactive programming
 _WIP_
-[gist source](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
+
+* [gist source](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 
 ## Streams
 A stream is a sequence of *on going events ordered in time.* 
